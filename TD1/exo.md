@@ -74,6 +74,7 @@ Définir une stratégie pour un référencement international
 Plusieurs solutions :
 
 1. un nom de domaine par pays,
-2. un sous-domaine par pays, un
-   répertoire par pays, pages multilingues (à éviter)
-   URL : des termes claires
+2. un sous-domaine par pays,
+3. un répertoire par pays,
+4. pages multilingues (à éviter)
+5. URL : des termes claires
