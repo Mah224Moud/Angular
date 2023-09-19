@@ -62,27 +62,27 @@ Exemple sur les heritages:
 class Phone {
   private brand: string;
   private price: number;
+  private name: string;
 
-  constructor(brand: string, price: number) {
+  constructor(brand: string, price: number, name: string) {
     this.brand = brand;
     this.price = price;
+    this.name = name;
   }
 
   showInfo(): void {
     console.log(
-        this.brand + " " + this.price + "€");
+      this.name + " form " + this.brand + " and costs " + this.price + "€"
+    );
   }
 }
 
-
-classe ApplePhone extends Phone {
-
-    private name: string;
-    constructor(name: string) {
-        super("Apple", 100);
-    }
+class ApplePhone extends Phone {
+  constructor(brand: string, price: number, name: string) {
+    super(brand, price, name);
+  }
 }
 
-const phone = new ApplePhone("iPhone 12");
+const phone = new ApplePhone("Apple", 100, "iPhone 12");
 phone.showInfo();
 ```
