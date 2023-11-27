@@ -24,3 +24,5 @@ vue create nom-projet
 ```bash
 npm run serve
 ```
+
+## Passer par le CND
